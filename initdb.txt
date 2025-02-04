@@ -1,0 +1,17 @@
+CREATE TABLE Employees(
+EmployeeId serial PRIMARY KEY,
+FirstName VARCHAR(20) null,
+LastName VARCHAR(20)null,
+Email VARCHAR(50)null
+);
+
+insert into Employees(FirstName, LastName, Email) values ('Anna', 'Adams', 'aa@amail.com');
+
+CREATE TABLE TimeEntries(
+EntryId serial,
+EmployeeId integer REFERENCES Employees(EmployeeId),
+Date date,
+HoursWorked INT CHECK(HoursWorked BETWEEN 1 AND 24) 
+);
+
+insert into TimeEntries(EmployeeId, Date, HoursWorked) values (1, '2025-03-01', 8);
