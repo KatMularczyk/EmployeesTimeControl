@@ -48,7 +48,7 @@ namespace EmployeesTimeControl
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-           /* app.UseExceptionHandler(appError => //global error handler
+           app.UseExceptionHandler(appError => //global error handler
             {
                 appError.Run(async context =>
                 {
@@ -66,8 +66,8 @@ namespace EmployeesTimeControl
                             Message = "Something went wrong"
                         });
                     }
-                });*/
-            //});
+                });
+            });
             app.UseAuthentication();
             app.UseAuthorization();
 
