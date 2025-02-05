@@ -111,7 +111,6 @@ C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\obj\Debug\net6.0\Emp
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\obj\Debug\net6.0\EmployeesTimeControl.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\obj\Debug\net6.0\ref\EmployeesTimeControl.dll
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\appsettings.json
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\EmployeesTimeControl.exe
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\EmployeesTimeControl.deps.json
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\EmployeesTimeControl.runtimeconfig.json
@@ -166,3 +165,4 @@ C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\ne
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\net6.0\EmployeesTimeControl.pdb
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\net6.0\EmployeesTimeControl.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\net6.0\ref\EmployeesTimeControl.dll
+C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\appsettings.json
