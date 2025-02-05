@@ -1,4 +1,5 @@
-Please create locally file appsettings.json in directory EmployeesTimeControl, as below:
+Please create PostgreSQL database as in file initdb.txt
+Please create locally file appsettings.json in directory EmployeesTimeControl/Project/, as below:
 {
   "ConnectionStrings": {
     "EmployeesTCCon": "Server=localhost;Database=YOURDATABASE;Port=5432;User Id=YOURUSERID;Password=YOURPASSWORD"
