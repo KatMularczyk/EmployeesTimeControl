@@ -1,3 +1,4 @@
+Please create PostgreSQL database as in file initdb.txt
 Please create locally file appsettings.json in directory EmployeesTimeControl/Project/, as below:
 {
   "ConnectionStrings": {
