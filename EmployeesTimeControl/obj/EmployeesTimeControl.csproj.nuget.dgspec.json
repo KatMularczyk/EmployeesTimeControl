@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\EmployeesTimeControl\\EmployeesTimeControl.csproj": {}
+    "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl\\EmployeesTimeControl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\EmployeesTimeControl\\EmployeesTimeControl.csproj": {
+    "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl\\EmployeesTimeControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\EmployeesTimeControl\\EmployeesTimeControl.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl\\EmployeesTimeControl.csproj",
         "projectName": "EmployeesTimeControl",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\EmployeesTimeControl\\EmployeesTimeControl.csproj",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl\\EmployeesTimeControl.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\EmployeesTimeControl\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesTimeControl", "EmployeesTimeControl.csproj", "{DD72DC2F-19C8-457C-87C6-CF2BADA3F248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesTimeControl", "Project/EmployeesTimeControl.csproj", "{DD72DC2F-19C8-457C-87C6-CF2BADA3F248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTimeControl.Tests", "..\EmployeeTimeControl.Tests\EmployeeTimeControl.Tests.csproj", "{88B3EF1B-F32B-4802-901E-E480D233FD1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeTimeControl.Tests", "..\EmployeeTimeControl.Tests\EmployeeTimeControl.Tests.csproj", "{88B3EF1B-F32B-4802-901E-E480D233FD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesTimeControl.IntegrationTests", "..\EmployeesTimeControl.IntegrationTests\EmployeesTimeControl.IntegrationTests.csproj", "{FDE82D83-E3BF-4362-863F-C177FCA0A316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{88B3EF1B-F32B-4802-901E-E480D233FD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B3EF1B-F32B-4802-901E-E480D233FD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B3EF1B-F32B-4802-901E-E480D233FD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE82D83-E3BF-4362-863F-C177FCA0A316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE82D83-E3BF-4362-863F-C177FCA0A316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE82D83-E3BF-4362-863F-C177FCA0A316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE82D83-E3BF-4362-863F-C177FCA0A316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

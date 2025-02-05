@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFlcoUyOgv3X521Z7LRD5itmFVRnIxEhvDY0vRZlfjFPYyTzEEROkZ6nssR2NnhyIJbZR9NQdKZb1TShKECrXQ==",
+  "dgSpecHash": "5Veu5QSgLbNubBgk0nKwTEqxPzPdcvqTZCa1t172WjgX9ZjuJtJXlWv3/sS4VUSONvRLRp7s+utXUvsraGjy+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\EmployeeTimeControl.Tests\\EmployeeTimeControl.Tests.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeeTimeControl.Tests\\EmployeeTimeControl.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
