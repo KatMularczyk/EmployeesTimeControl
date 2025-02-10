@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ndiuCOYuN2sOq2Rwztf3yv1SJwApVnOPAjz0tJTU47LW+lsNMmJxYOOYrpk22JOOfBjeqHpR1VXzOmfhtt3Ymg==",
+  "dgSpecHash": "nQnn1kStC6fnY7+IVK7CsTqVrPuhPfvzA42UdaYGyDGDSma6zWxW+sewAElB6gOzqfu2lmTnS2ThAtV6voV1hQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\Employees\\EmployeesTimeControl.IntegrationTests\\EmployeesTimeControl.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\mapster\\6.5.1\\mapster.6.5.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.3.0\\microsoft.aspnet.webapi.core.5.3.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.36\\microsoft.aspnetcore.authentication.jwtbearer.6.0.36.nupkg.sha512",

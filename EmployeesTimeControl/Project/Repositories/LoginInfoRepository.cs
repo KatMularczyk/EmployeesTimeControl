@@ -17,7 +17,7 @@ namespace EmployeesTimeControl.Repositories
 
         public string Login([FromBody] LoginInfo loginInfo)
         {
-            if (loginInfo.UserName == "Admin" || loginInfo.Password == "Admin123")
+            if (loginInfo.UserName == "Admin" && loginInfo.Password == "Admin123")
             {
                 var token = _jwtService.GenerateToken(loginInfo.UserName);
                 return token;

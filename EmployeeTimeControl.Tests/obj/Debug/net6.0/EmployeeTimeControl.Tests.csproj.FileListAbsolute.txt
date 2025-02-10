@@ -238,3 +238,4 @@ C:\Users\lenovo\source\repos\Employees\EmployeeTimeControl.Tests\obj\Debug\net6.
 C:\Users\lenovo\source\repos\Employees\EmployeeTimeControl.Tests\obj\Debug\net6.0\EmployeeTimeControl.Tests.pdb
 C:\Users\lenovo\source\repos\Employees\EmployeeTimeControl.Tests\obj\Debug\net6.0\EmployeeTimeControl.Tests.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\Employees\EmployeeTimeControl.Tests\obj\Debug\net6.0\ref\EmployeeTimeControl.Tests.dll
+C:\Users\lenovo\source\repos\Employees\EmployeeTimeControl.Tests\bin\Debug\net6.0\Mapster.dll

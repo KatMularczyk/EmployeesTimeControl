@@ -1,5 +1,6 @@
 ﻿using EmployeesTimeControl.Models;
 using EmployeesTimeControl.Repositories;
+using EmployeesTimeControl.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Npgsql;
@@ -15,28 +16,28 @@ namespace EmployeesTimeControl.Controllers
     public class EmployeeController : ControllerBase
     {
 
-        private readonly IEmployeeRepository _repository;
+        private readonly IEmployeeService _service;
 
-        public EmployeeController(IEmployeeRepository repository)
+        public EmployeeController(IEmployeeService service) 
         {
-            _repository = repository;
+            _service = service;
         }
 
         [HttpGet]
         public JsonResult Get()
         {
-            var employees = _repository.GetEmployees();
-            return new JsonResult(employees);
+            var employeeDTOs = _service.GetEmployeesDTO();
+            return new JsonResult(employeeDTOs);
         }
 
         [Authorize]
         [HttpGet("{id:int}")]
-        public JsonResult Get(int id)//Get all employees details
+        public JsonResult Get(int id)
         {
             try
             {
-                var employee = _repository.GetEmployeesById(id);
-                return new JsonResult(employee);
+                var employeeDTO = _service.GetEmployeeDTOById(id);
+                return new JsonResult(employeeDTO);
             }
             catch (KeyNotFoundException ex) 
             {
@@ -46,17 +47,17 @@ namespace EmployeesTimeControl.Controllers
 
         [Authorize]
         [HttpPost]
-        public JsonResult Post(Employee emp)
+        public JsonResult Post(EmployeeDTO emp)
         {
-            int affectedRows = _repository.AddEmployee(emp);
+            int affectedRows = _service.AddEmployeeDTO(emp);
             return new JsonResult("Added records: "+affectedRows);
         }
 
         [Authorize]
         [HttpPut("{id:int}")]
-        public JsonResult Put(int id, Employee emp)
+        public JsonResult Put(int id, EmployeeDTO emp)
         {
-            int affectedRows = _repository.EditEmployee(id, emp);
+            int affectedRows = _service.EditEmployeeDTO(id, emp);
             return new JsonResult("Updated records: " + affectedRows);
         }
 
@@ -64,7 +65,7 @@ namespace EmployeesTimeControl.Controllers
         [HttpDelete("{id:int}")]
         public JsonResult Delete(int id)
         {
-            int affectedRows = _repository.DeleteEmployee(id);
+            int affectedRows = _service.DeleteEmployeeDTO(id);
             return new JsonResult("Deleted records: " + affectedRows);
         }
     }

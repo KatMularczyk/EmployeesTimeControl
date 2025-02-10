@@ -166,3 +166,4 @@ C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\ne
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\net6.0\EmployeesTimeControl.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\obj\Debug\net6.0\ref\EmployeesTimeControl.dll
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl\Project\bin\Debug\net6.0\Mapster.dll

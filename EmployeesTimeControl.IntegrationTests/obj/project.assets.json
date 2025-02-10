@@ -8,6 +8,19 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Mapster/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Mapster.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mapster.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2027,7 +2040,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.1/_._": {
+          "ref/netstandard1.1/System.Reflection.Emit.dll": {
             "related": ".xml"
           }
         },
@@ -2043,7 +2056,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
             "related": ".xml"
           }
         },
@@ -2764,6 +2777,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Mapster": "6.5.1",
           "Microsoft.AspNet.WebApi.Core": "5.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.36",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.36",
@@ -2835,6 +2849,22 @@
         "coverlet-icon.png",
         "coverlet.collector.3.2.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Mapster/6.5.1": {
+      "sha512": "0s4McWM8+n+AtuHqvLR2GdVPqSjVCc0exB+ropNIyaJfo0w0nnJwJzATKdrIsiAKLBDIqabf3tXw+8nBdm9HHA==",
+      "type": "package",
+      "path": "mapster/6.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net40/Mapster.dll",
+        "lib/net45/Mapster.dll",
+        "lib/netstandard1.3/Mapster.dll",
+        "lib/netstandard2.0/Mapster.dll",
+        "mapster.6.5.1.nupkg.sha512",
+        "mapster.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {

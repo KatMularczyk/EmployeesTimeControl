@@ -1,6 +1,7 @@
 
 
 using EmployeesTimeControl.Repositories;
+using EmployeesTimeControl.Services;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -40,6 +41,7 @@ namespace EmployeesTimeControl
             builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             builder.Services.AddScoped<ITimeEntriesRepository, TimeEntriesRepository>();
             builder.Services.AddScoped<ILoginInfoRepository, LoginInfoRepository>();
+            builder.Services.AddScoped<IEmployeeService, EmployeeService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -48,7 +50,7 @@ namespace EmployeesTimeControl
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-           app.UseExceptionHandler(appError => //global error handler
+           /*app.UseExceptionHandler(appError => //global error handler
             {
                 appError.Run(async context =>
                 {
@@ -67,7 +69,7 @@ namespace EmployeesTimeControl
                         });
                     }
                 });
-            });
+            });*/
             app.UseAuthentication();
             app.UseAuthorization();
 

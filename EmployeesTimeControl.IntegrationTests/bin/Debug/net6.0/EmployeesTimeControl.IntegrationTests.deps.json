@@ -332,6 +332,21 @@
         }
       },
       "coverlet.collector/3.2.0": {},
+      "Mapster/6.5.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mapster.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Mapster.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/6.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -1994,6 +2009,7 @@
       "xunit.runner.visualstudio/2.4.5": {},
       "EmployeesTimeControl/1.0.0": {
         "dependencies": {
+          "Mapster": "6.5.1",
           "Microsoft.AspNet.WebApi.Core": "5.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.36",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.36",
@@ -3720,6 +3736,13 @@
       "sha512": "sha512-xjY8xBigSeWIYs4I7DgUHqSNoGqnHi7Fv7/7RZD02rvZyG3hlsjnQKiVKVWKgr9kRKgmV+dEfu8KScvysiC0Wg==",
       "path": "coverlet.collector/3.2.0",
       "hashPath": "coverlet.collector.3.2.0.nupkg.sha512"
+    },
+    "Mapster/6.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0s4McWM8+n+AtuHqvLR2GdVPqSjVCc0exB+ropNIyaJfo0w0nnJwJzATKdrIsiAKLBDIqabf3tXw+8nBdm9HHA==",
+      "path": "mapster/6.5.1",
+      "hashPath": "mapster.6.5.1.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",

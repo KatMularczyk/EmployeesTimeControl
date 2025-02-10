@@ -424,3 +424,4 @@ C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl.IntegrationTests\obj
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl.IntegrationTests\obj\Debug\net6.0\EmployeesTimeControl.IntegrationTests.pdb
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl.IntegrationTests\obj\Debug\net6.0\EmployeesTimeControl.IntegrationTests.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl.IntegrationTests\obj\Debug\net6.0\ref\EmployeesTimeControl.IntegrationTests.dll
+C:\Users\lenovo\source\repos\Employees\EmployeesTimeControl.IntegrationTests\bin\Debug\net6.0\Mapster.dll
